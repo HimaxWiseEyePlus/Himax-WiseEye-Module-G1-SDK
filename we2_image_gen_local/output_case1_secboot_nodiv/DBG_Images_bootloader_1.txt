@@ -1,0 +1,1 @@
+D:\workspace\ISM028\ISM028_SDK\HimaxWE2_SDK_1.1_SVN180368_ISM028\we2_image_gen_local\common\bl\WE2_FW_BL_arm_we2_evb_xtal24rc32k.bin 0x34005000 0x3a0144ac 0x0010000 0

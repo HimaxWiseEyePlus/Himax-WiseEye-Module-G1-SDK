@@ -1,0 +1,64 @@
+{
+    "tab_i2c": {
+        "regaddr": 973078528,
+        "regaddrsize": 4,
+        "regsize": 4,
+        "regval": 67305985,
+        "slaveid": 121,
+        "slv79reglist": [
+            217,
+            224
+        ]
+    },
+    "tab_isp": {
+        "clkdiv": 4,
+        "crc_en": 1,
+        "defaultusespi": 0,
+        "dummycycle": 0,
+        "endian": 1,
+        "erasemode": 0,
+        "ercmdset": 0,
+        "ercmdseten": 0,
+        "fastread": 0,
+        "file": "D:/workspace/ISM028/ISM028_SDK/HimaxWE2_SDK_1.1_SVN180368_ISM028/we2_ota_tool/img/output.img",
+        "flashtype": 0,
+        "ispctrli2cid": 40,
+        "ispdatai2cid": 40,
+        "ispdataport": 939524096,
+        "ispscuaddr": 1174407936,
+        "pp4en": 1,
+        "ppen": 1,
+        "prog_databytes": 4,
+        "prog_dmycycle_en": 1,
+        "prog_dmycycle_mode": 0,
+        "prog_dmycycle_pos": 0,
+        "prog_dmycycles": 7,
+        "prog_instcmd": 165,
+        "prog_instmode": 0,
+        "prog_s1data": 90,
+        "prog_s1mode": 0,
+        "prog_s2data": 165,
+        "prog_s2mode": 0,
+        "prog_s3data": 90,
+        "prog_s3mode": 0,
+        "prog_s4data": 165,
+        "prog_s4mode": 0,
+        "qread": 1,
+        "sclk": 0,
+        "startaddr": 0
+    },
+    "tab_uart": {
+        "baudRate": 921600,
+        "byteSize": 8,
+        "fDtrControl": 0,
+        "parity": 0,
+        "stopBits": 1
+    },
+    "window": {
+        "height": 754,
+        "iswinmaximized": 0,
+        "raw_height": 272,
+        "raw_width": 480,
+        "width": 1040
+    }
+}

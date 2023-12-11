@@ -1,0 +1,77 @@
+{
+    "cm55m_s_application": {
+        "input": "input_case1_secboot\\WE2_CM55M_we2_evb_s.elf",
+        "IDX0_.table": {
+            "length": "0x000007c0",
+            "vma": "0x10000000",
+            "index": 0,
+            "sec_name": ".table",
+            "offset": 0,
+            "type": 1,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx0_.table.bin"
+        },
+        "IDX1_.text": {
+            "length": "0x0001b7e8",
+            "vma": "0x100007c0",
+            "index": 1,
+            "sec_name": ".text",
+            "offset": 0,
+            "type": 0,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx1_.text.bin"
+        },
+        "IDX4_.rodata": {
+            "length": "0x65b4",
+            "vma": "0x1001bfa8",
+            "index": 4,
+            "sec_name": ".rodata",
+            "offset": 0,
+            "type": 1,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx4_.rodata.bin"
+        },
+        "IDX5_.ARM.exidx": {
+            "length": "0x00000008",
+            "vma": "0x1002255c",
+            "index": 5,
+            "sec_name": ".ARM.exidx",
+            "offset": 0,
+            "type": 1,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx5_.arm.exidx.bin"
+        },
+        "IDX6_.copy.table": {
+            "length": "0x0000000c",
+            "vma": "0x10022564",
+            "index": 6,
+            "sec_name": ".copy.table",
+            "offset": 0,
+            "type": 2,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx6_.copy.table.bin"
+        },
+        "IDX7_.data": {
+            "length": "0x00000c10",
+            "vma": "0x30000000",
+            "index": 7,
+            "sec_name": ".data",
+            "offset": 0,
+            "type": 2,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx7_.data.bin"
+        },
+        "IDX8_.zero.table": {
+            "length": "0x00000008",
+            "vma": "0x10022570",
+            "index": 8,
+            "sec_name": ".zero.table",
+            "offset": 0,
+            "type": 2,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx8_.zero.table.bin"
+        },
+        "IDX13_.model": {
+            "length": "0x0006e980",
+            "vma": "0x3a180000",
+            "index": 13,
+            "sec_name": ".model",
+            "offset": 0,
+            "type": 1,
+            "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_idx13_.model.bin"
+        }
+    }
+}

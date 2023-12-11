@@ -1,0 +1,1 @@
+D:\workspace\ISM028\ISM028_SDK\HimaxWE2_SDK_1.1_SVN180368_ISM028\we2_image_gen_local\common\2ndbl\WE2_FW_2NDBL_arm_we2_evb.bin 0x3401f000 0x3a0014ac 0x0010000 0

@@ -1,0 +1,124 @@
+{
+    "cm55m_s_application": {
+        "division_size": "0xf0000000",
+        "sec_header_size": "0x4AC",
+        "part_align": "0x0",
+        "part_1": {
+            "section_1": {
+                "type": 3,
+                "section_number": 1,
+                "sec_size": "0x7C0",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p1_s1.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x7c0",
+                "sec_type": 1,
+                "sec_dst": "0x10000000"
+            },
+            "section_count": 4,
+            "section_2": {
+                "type": 3,
+                "section_number": 2,
+                "sec_size": "0x1B7E8",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p1_s2.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x1b7e8",
+                "sec_type": 0,
+                "sec_dst": "0x100007c0"
+            },
+            "section_3": {
+                "type": 3,
+                "section_number": 3,
+                "sec_size": "0x65B4",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p1_s3.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x65b4",
+                "sec_type": 1,
+                "sec_dst": "0x1001bfa8"
+            },
+            "section_4": {
+                "type": 3,
+                "section_number": 4,
+                "sec_size": "0x8",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p1_s4.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x8",
+                "sec_type": 1,
+                "sec_dst": "0x1002255c"
+            },
+            "output_sec": "D:\\workspace\\ISM028\\ISM028_SDK\\HimaxWE2_SDK_1.1_SVN180368_ISM028\\we2_image_gen_local\\output_case1_secboot_nodiv\\inter_files\\sign_formal_cm55m_s_application_p1.img"
+        },
+        "part_2": {
+            "section_1": {
+                "type": 3,
+                "section_number": 1,
+                "sec_size": "0xC",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p2_s1.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0xc",
+                "sec_type": 2,
+                "sec_dst": "0x10022564"
+            },
+            "section_count": 3,
+            "section_2": {
+                "type": 3,
+                "section_number": 2,
+                "sec_size": "0xC10",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p2_s2.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0xc10",
+                "sec_type": 2,
+                "sec_dst": "0x30000000"
+            },
+            "section_3": {
+                "type": 3,
+                "section_number": 3,
+                "sec_size": "0x8",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p2_s3.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x8",
+                "sec_type": 2,
+                "sec_dst": "0x10022570"
+            },
+            "output_sec": "D:\\workspace\\ISM028\\ISM028_SDK\\HimaxWE2_SDK_1.1_SVN180368_ISM028\\we2_image_gen_local\\output_case1_secboot_nodiv\\inter_files\\sign_formal_cm55m_s_application_p2.img"
+        },
+        "part_3": {
+            "section_1": {
+                "type": 3,
+                "section_number": 1,
+                "sec_size": "0x6E980",
+                "version": 2,
+                "output": "output_case1_secboot_nodiv\\inter_files\\cm55m_s_application_p3_s1.img",
+                "div_cnt": 1,
+                "align": 0,
+                "sec_offset": "0x0",
+                "div_sec_size": "0x6e980",
+                "sec_type": 6,
+                "sec_dst": "0x3a180000"
+            },
+            "section_count": 1,
+            "output_sec": "D:\\workspace\\ISM028\\ISM028_SDK\\HimaxWE2_SDK_1.1_SVN180368_ISM028\\we2_image_gen_local\\output_case1_secboot_nodiv\\inter_files\\raw_sec_cm55m_s_application_p3.img"
+        },
+        "part_count": 3
+    }
+}
