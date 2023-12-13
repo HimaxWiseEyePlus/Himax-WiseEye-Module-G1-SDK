@@ -1,0 +1,46 @@
+
+[Install]
+pip install ethos-u-vela
+
+[Usage]
+vela --accelerator-config ethos-u55-64 --config himax_vela.ini --system-config My_Sys_Cfg --memory-mode My_Mem_Mode_Parent .\yolo_coco.tflite
+
+Network summary for yolo_coco
+Accelerator configuration                Ethos_U55_64
+System configuration                       My_Sys_Cfg
+Memory mode                        My_Mem_Mode_Parent
+Accelerator clock                                 400 MHz
+Design peak SRAM bandwidth                       3.20 GB/s
+Design peak Off-chip Flash bandwidth             0.05 GB/s
+
+Total SRAM used                                300.97 KiB
+Total Off-chip Flash used                      441.17 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 114 (100.0%)
+
+Average SRAM bandwidth                           0.57 GB/s
+Input   SRAM bandwidth                           3.53 MB/batch
+Weight  SRAM bandwidth                           1.23 MB/batch
+Output  SRAM bandwidth                           2.40 MB/batch
+Total   SRAM bandwidth                           7.22 MB/batch
+Total   SRAM bandwidth            per input      7.22 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.03 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.36 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.36 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.36 MB/inference (batch size 1)
+
+Neural network macs                          27225400 MACs/batch
+Network Tops/s                                   0.00 Tops/s
+
+NPU cycles                                    5030211 cycles/batch
+SRAM Access cycles                             752672 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  5030211 cycles/batch
+
+Batch Inference time                12.58 ms,   79.52 inferences/s (batch size 1)
