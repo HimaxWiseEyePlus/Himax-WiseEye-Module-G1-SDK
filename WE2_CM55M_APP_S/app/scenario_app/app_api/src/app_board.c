@@ -152,18 +152,27 @@ void priv_set_88_ism028_03m_pinmux(void)
 	/*Set 1*/
 	hx_drv_scu_set_PB2_pinmux(SCU_PB2_PINMUX_I2C_M_SDA);
 	hx_drv_scu_set_PB3_pinmux(SCU_PB3_PINMUX_I2C_M_SCL);
+#ifdef SPI_MASTER_SEND
+	/* SPI Master */
 	hx_drv_scu_set_PB4_pinmux(SCU_PB4_PINMUX_SPI_M_SCLK_1);
 	hx_drv_scu_set_PB5_pinmux(SCU_PB5_PINMUX_SPI_M_CS_1);
 	hx_drv_scu_set_PB6_pinmux(SCU_PB6_PINMUX_SPI_M_DI);
 	hx_drv_scu_set_PB7_pinmux(SCU_PB7_PINMUX_SPI_M_DO);
+#else
+	/* SPI Slave */
+	hx_drv_scu_set_PB4_pinmux(SCU_PB4_PINMUX_SPI_S_CLK);
+	hx_drv_scu_set_PB5_pinmux(SCU_PB5_PINMUX_SPI_S_CS);
+	hx_drv_scu_set_PB6_pinmux(SCU_PB6_PINMUX_SPI_S_DI);
+	hx_drv_scu_set_PB7_pinmux(SCU_PB7_PINMUX_SPI_S_DO);
+#endif
 
 	hx_drv_scu_set_PB8_pinmux(SCU_PB8_PINMUX_PWM2);
 	hx_drv_scu_set_PB9_pinmux(SCU_PB9_PINMUX_PDM_CLK_1);
 	hx_drv_scu_set_PB10_pinmux(SCU_PB10_PINMUX_PDM_DATA0_1);
 
 	/* GPIO_2 */
-    hx_drv_scu_set_PB11_pinmux(SCU_PB11_PINMUX_GPIO2);
-    hx_drv_gpio_set_output(GPIO2, GPIO_OUT_LOW);
+	hx_drv_scu_set_PB11_pinmux(SCU_PB11_PINMUX_GPIO2);
+	hx_drv_gpio_set_output(GPIO2, GPIO_OUT_LOW);
 }
 #endif /* HX6538_ISM028_03M */
 
