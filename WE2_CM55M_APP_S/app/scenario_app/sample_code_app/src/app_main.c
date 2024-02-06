@@ -50,7 +50,7 @@ static void priv_init_xip()
         dbg_printf(DBG_LESS_INFO, "hx_lib_spi_eeprom_open OK.\n");
     }
     hx_lib_spi_eeprom_read_ID(USE_DW_SPI_MST_Q, flash_info);
-    ret = hx_lib_spi_eeprom_enable_XIP(USE_DW_SPI_MST_Q, true, FLASH_QUAD, true);
+    ret = hx_lib_spi_eeprom_enable_XIP(USE_DW_SPI_MST_Q, true, FLASH_DUAL, true);
     if (ret != 0) {
        dbg_printf(DBG_LESS_INFO, "hx_lib_spi_eeprom_enable_XIP failed!\n");
     } else {
