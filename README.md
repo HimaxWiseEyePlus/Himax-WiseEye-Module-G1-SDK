@@ -1,4 +1,6 @@
 # Himax-WiseEye-Module-G1-SDK
+Please note that the SDK v1.1 on GitHub is open source. To request the latest SDK, please contact your Himax representative.
+
 [SDK User Guide](https://github.com/HimaxWiseEyePlus/Himax-WiseEye-Module-G1-SDK/blob/main/_Documents/1_SDK_User_Guide_GNU_V1.1.pdf)
 
 [EVK and PC Tool User Guide](https://github.com/HimaxWiseEyePlus/Himax-WiseEye-Module-G1-SDK/blob/main/_Documents/2_EVK_and_PC_Tool_User_Guide_HX6538_ISM028_03M_V1.1.pdf)
